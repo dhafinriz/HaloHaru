@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="horizontal"
+    android:layout_width="match_parent"
+    android:background="@drawable/backgroundbiru"
+    android:weightSum="3"
+    android:layout_height="match_parent"
+    tools:context="com.dhafin.projectjepang.video">
+
+   <RelativeLayout
+       android:layout_width="match_parent"
+       android:layout_height="match_parent">
+       <VideoView
+           android:id="@+id/VideoView"
+           android:layout_width="match_parent"
+           android:layout_height="match_parent"
+           android:layout_centerHorizontal="true"
+           android:layout_centerVertical="true"
+           />
+   </RelativeLayout>
+</RelativeLayout>

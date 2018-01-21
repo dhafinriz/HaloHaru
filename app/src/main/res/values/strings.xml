@@ -1,0 +1,72 @@
+<resources>
+    <string name="app_name">Halo Haru!</string>
+
+    <!--buat isi game1-->
+    <string name="satua"> A. Ohayou Gozaimasu </string>
+    <string name="satub"> B. Konnichiwa </string>
+    <string name="duaa"> A. Douzo yoroshiku onegaishimasu </string>
+    <string name="duab"> B. Hajimemashite </string>
+    <string name="tigaa"> A. Wa , Desu </string>
+    <string name="tigab"> B. Kara , kimashita</string>
+    <string name="empata"> A. wa </string>
+    <string name="empatb"> B. Nensei </string>
+    <string name="limaa"> A. Ni sundeimasu </string>
+    <string name="limab"> B. Kara kimashita </string>
+    <string name="enama"> A. Ni seundeimasu</string>
+    <string name="enamb"> B. Kara kimashita </string>
+    <string name="tujuha"> A. Douzo yoroshiku onegaishimasu </string>
+    <string name="tujuhb"> B. Sayounara </string>
+
+    <!--pertanyaa game 1-->
+    <string name="pertanyaan1"> Watashi ______ Haru ______ </string>
+    <string name="pertanyaan2"> Juu Ichi ______ Desu </string>
+    <string name="pertanyaan3"> Nihon ________ </string>
+    <string name="pertanyaan4"> Jakaruta ________ </string>
+    <string name="pertanyaan5"> __________________ </string>
+
+    <!--Tahukah Kamu-->
+    <string name="judul1">Membungkuk Salam (Eshaku 会釈 )</string>
+    <string name="judul2">Membungkuk Hormat (Keirei 敬礼)</string>
+    <string name="judul3">Membungkuk Hormat Tertinggi (Sai-Keirei )</string>
+    <string name="apaituojigi"> Ojigi adalah budaya membungkuk yang dilakukan orang Jepang pada saat tertentu. Salah satu contohnya adalah ketika memperkenalkan diri　Kepada seseorang. Di dalam ojigi, ada aturan, maksud serta tujuan mengapa ojigi itu dilakukan.Berikut adalah macam-macam ojigi beserta fungsinya. Simak terus ya~</string>
+    <string name="tahukahkamu2">Membungkuk 15 derajat yang merupakan cara formal dalam membungkuk. Fungsinya untuk menyampaikan salam dan memperkenalkan diri kepada teman atau rekan kerja yang tidak terlalu dekat.</string>
+    <string name="tahukahkamu3">Membungkuk 30 derajat merupakan membungkuk yang sangat formal. Biasanya digunakan untuk menunjukkan rasa hormat kepada orang yang lebih tua atau jabatannya lebih tinggi.</string>
+    <string name="tahukahkamu4">Membungkuk 45 derajat merupakan cara membungkuk yang amat sangat formal. Biasanya digunakan ketika si pembungkuk merasa sangat menyesal dan bersalah sehingga memohon untuk diberikan maaf. Membungkuk dengan cara ini juga bisa digunakan untuk memberikan penghormatan kepada orang yang memiliki jabatan yang sangat tingo, seperti kepada kaisar Jepang
+</string>
+
+    <string name="opvide">Ini adalah cara orang Jepang berkenalan, \nsimak yuk ~</string>
+    <string name="penvide">Setelah melihat video tersebut mari kita coba berkenalan dengan menggunakan bahasa Jepang. Apakah ada yang ingat urutan memperkenalkan diri seperti yang Haru lakukan tadi?
+</string>
+
+    <string name="pen1">おはようございます。\nOhayou Gozaimasu.\nSelamat Pagi.</string>
+    <string name="pen2">はじめまして。\nHajimemashite.\nPerkenalkan.</string>
+    <string name="pen3">わたし　は　はるです。\nWatashi wa Haru desu.\nSaya adalah Haru.</string>
+    <string name="pen4">じゅう　ねんせいです。\nJuu Nensei desu.\nSaya kelas 10.</string>
+    <string name="pen5">にほん　からきました。\nNihon Karakimashita.\nSaya dari Jepang.</string>
+    <string name="pen6">ジャカルタ　に　すんでいます。\nJakaruta ni sunde imasu.\nTinggal di Jakarta.</string>
+    <string name="pen7">どうぞ　よろしくおねがいします。\nDouzo Yoroshiku Onegaishimasu.\nSenang berkenalan dengan kalian.</string>
+
+
+    <string name="kbenda1">Kata benda 1 (subjek) + は + kata benda 2 (predikat) です</string>
+    <string name="kbenda2">WA　（は）　 adalah sebuah partikel yang menjadikan kata benda  didepannya sebagai subyek.</string>
+    <string name="kbenda3">DESU （です）　adalah penutup kalimat yang menandakan bahwa kalimat tersebut sudah berakhir.</string>
+    <string name="kbenda4">CONTOH:\nわたし　は　はる　です。\nWatashi wa Haru desu.\nSaya adalah Haru.</string>
+
+    <string name="kket1">subjek + は + Kata.Ket (tingkatan kelas ねんせい) です</string>
+    <string name="kket2">Pola kalimat ini digunakan untuk menjelaskan tingkatan kelas atau tahun bagi pembelajar.</string>
+    <string name="kket3">CONTOH :\nわたし　は　じゅう　ねんせいです。\nWatashi wa juu-nensei desu.\nSaya kelas sepuluh (1 SMA/MA/SMK)</string>
+    <string name="kket4">わたし　は　ろく　ねんせい　です。\nWatashi wa roku-nensei desu.\nSaya kelas enam (SD).</string>
+
+    <string name="ktem1">「Kota/Negara Asal」から きました。 → (Saya) berasal dari...(Kota/Negara Asal) kara kimashita.</string>
+    <string name="ktem2">Pola kalimat ini digunakan untuk menyebutkan kampung halaman/negara asal diri sendiri. Kata ‘kara kimashita’ berarti ‘berasal dari / datang dari</string>
+    <string name="ktem3">CONTOH:\nインドネシア から きました。\nIndonesia kara kimashita.\nSaya berasal dari Indonesia.</string>
+
+    <string name="kketem1">S+ は + Ket.tempat) +  にすんでいます</string>
+    <string name="kketem2">Pola kalimat ini menggunakan partikel ”ni sundeimasu”  yang digunakan untuk menyatakan tempat di mana kita tinggal sekarang.</string>
+    <string name="kketem3">CONTOH:\nスラビヤ　にすんでいます。\nSurabaya ni sundeimasu\nTinggal di Surabaya</string>
+    <string name="kketem4">わたし　は　ジャカルタ　にすんでいます。\nWatashi wa Jakaruta ni sundeimasu.\nSaya tinggal di jakarta.</string>
+
+    <!--about us-->
+
+
+</resources>

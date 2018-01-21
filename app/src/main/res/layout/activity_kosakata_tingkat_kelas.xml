@@ -1,0 +1,436 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bg_salam">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:gravity="center"
+        android:layout_weight="1.3">
+
+        <ImageView
+            android:layout_marginTop="7dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/menu_tingkatan_kelas"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:orientation="horizontal"
+        android:layout_marginTop="19dp"
+        android:layout_marginLeft="24dp"
+        android:layout_marginRight="24dp"
+        android:layout_weight="1">
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:gravity="center"
+            android:layout_weight="1">
+            <com.wajahatkarim3.easyflipview.EasyFlipView
+                android:id="@+id/satu"
+                android:layout_width="70dp"
+                android:layout_height="70dp"
+                app:flipOnTouch="true"
+                app:flipEnabled="true"
+                app:flipDuration="400"
+                app:flipType="horizontal"
+                >
+                <ImageView
+                    android:background="@drawable/satub"
+                    android:layout_gravity="center"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    />
+                <ImageView
+                    android:background="@drawable/satu"
+                    android:layout_gravity="center"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    />
+            </com.wajahatkarim3.easyflipview.EasyFlipView>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:gravity="center">
+
+            <com.wajahatkarim3.easyflipview.EasyFlipView
+                android:id="@+id/dua"
+                android:layout_width="70dp"
+                android:layout_height="70dp"
+                app:flipOnTouch="true"
+                app:flipEnabled="true"
+                app:flipDuration="400"
+                app:flipType="horizontal"
+                >
+                <ImageView
+                    android:background="@drawable/duab"
+                    android:layout_gravity="center"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    />
+                <ImageView
+                    android:background="@drawable/dua"
+                    android:layout_gravity="center"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    />
+            </com.wajahatkarim3.easyflipview.EasyFlipView>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:gravity="center">
+
+            <com.wajahatkarim3.easyflipview.EasyFlipView
+                android:id="@+id/tiga"
+                android:layout_width="70dp"
+                android:layout_height="70dp"
+                app:flipOnTouch="true"
+                app:flipEnabled="true"
+                app:flipDuration="400"
+                app:flipType="horizontal"
+                >
+                <ImageView
+                    android:background="@drawable/tigab"
+                    android:layout_gravity="center"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    />
+                <ImageView
+                    android:background="@drawable/tiga"
+                    android:layout_gravity="center"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    />
+            </com.wajahatkarim3.easyflipview.EasyFlipView>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:gravity="center">
+
+            <com.wajahatkarim3.easyflipview.EasyFlipView
+                android:id="@+id/empat"
+                android:layout_width="70dp"
+                android:layout_height="70dp"
+                app:flipOnTouch="true"
+                app:flipEnabled="true"
+                app:flipDuration="400"
+                app:flipType="horizontal"
+                >
+                <ImageView
+                    android:background="@drawable/empatb"
+                    android:layout_gravity="center"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    />
+                <ImageView
+                    android:background="@drawable/empat"
+                    android:layout_gravity="center"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    />
+            </com.wajahatkarim3.easyflipview.EasyFlipView>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:gravity="center">
+            <com.wajahatkarim3.easyflipview.EasyFlipView
+                android:id="@+id/lima"
+                android:layout_width="70dp"
+                android:layout_height="70dp"
+                app:flipOnTouch="true"
+                app:flipEnabled="true"
+                app:flipDuration="400"
+                app:flipType="horizontal"
+                >
+                <ImageView
+                    android:background="@drawable/limab"
+                    android:layout_gravity="center"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    />
+                <ImageView
+                    android:background="@drawable/lima"
+                    android:layout_gravity="center"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    />
+            </com.wajahatkarim3.easyflipview.EasyFlipView>
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="24dp"
+        android:layout_marginRight="24dp"
+        android:layout_weight="1">
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:gravity="center"
+            android:layout_weight="1">
+
+            <com.wajahatkarim3.easyflipview.EasyFlipView
+                android:id="@+id/enam"
+                android:layout_width="70dp"
+                android:layout_height="70dp"
+                app:flipOnTouch="true"
+                app:flipEnabled="true"
+                app:flipDuration="400"
+                app:flipType="horizontal"
+                >
+                <ImageView
+                    android:background="@drawable/enamb"
+                    android:layout_gravity="center"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    />
+                <ImageView
+                    android:background="@drawable/enam"
+                    android:layout_gravity="center"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    />
+            </com.wajahatkarim3.easyflipview.EasyFlipView>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:gravity="center"
+            android:layout_weight="1">
+
+            <com.wajahatkarim3.easyflipview.EasyFlipView
+                android:id="@+id/tujuh"
+                android:layout_width="70dp"
+                android:layout_height="70dp"
+                app:flipOnTouch="true"
+                app:flipEnabled="true"
+                app:flipDuration="400"
+                app:flipType="horizontal"
+                >
+                <ImageView
+                    android:background="@drawable/tujuhb"
+                    android:layout_gravity="center"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    />
+                <ImageView
+                    android:background="@drawable/tujuh"
+                    android:layout_gravity="center"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    />
+            </com.wajahatkarim3.easyflipview.EasyFlipView>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:gravity="center"
+            android:layout_weight="1">
+
+            <com.wajahatkarim3.easyflipview.EasyFlipView
+                android:id="@+id/delapan"
+                android:layout_width="70dp"
+                android:layout_height="70dp"
+                app:flipOnTouch="true"
+                app:flipEnabled="true"
+                app:flipDuration="400"
+                app:flipType="horizontal"
+                >
+                <ImageView
+                    android:background="@drawable/delapanb"
+                    android:layout_gravity="center"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    />
+                <ImageView
+                    android:background="@drawable/delapan"
+                    android:layout_gravity="center"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    />
+            </com.wajahatkarim3.easyflipview.EasyFlipView>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:gravity="center"
+            android:layout_weight="1">
+
+            <com.wajahatkarim3.easyflipview.EasyFlipView
+                android:id="@+id/sembilan"
+                android:layout_width="70dp"
+                android:layout_height="70dp"
+                app:flipOnTouch="true"
+                app:flipEnabled="true"
+                app:flipDuration="400"
+                app:flipType="horizontal"
+                >
+                <ImageView
+                    android:background="@drawable/sembilanb"
+                    android:layout_gravity="center"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    />
+                <ImageView
+                    android:background="@drawable/sembilan"
+                    android:layout_gravity="center"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    />
+            </com.wajahatkarim3.easyflipview.EasyFlipView>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:gravity="center"
+            android:layout_weight="1">
+
+            <com.wajahatkarim3.easyflipview.EasyFlipView
+                android:id="@+id/sepuluh"
+                android:layout_width="70dp"
+                android:layout_height="70dp"
+                app:flipOnTouch="true"
+                app:flipEnabled="true"
+                app:flipDuration="400"
+                app:flipType="horizontal"
+                >
+                <ImageView
+                    android:background="@drawable/sepuluhb"
+                    android:layout_gravity="center"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    />
+                <ImageView
+                    android:background="@drawable/sepuluh"
+                    android:layout_gravity="center"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    />
+            </com.wajahatkarim3.easyflipview.EasyFlipView>
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="24dp"
+        android:layout_marginRight="24dp"
+        android:layout_weight="1">
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="2"></LinearLayout>
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:gravity="center"
+            android:layout_weight="1">
+
+            <com.wajahatkarim3.easyflipview.EasyFlipView
+                android:id="@+id/sebelas"
+                android:layout_width="70dp"
+                android:layout_height="70dp"
+                app:flipOnTouch="true"
+                app:flipEnabled="true"
+                app:flipDuration="400"
+                app:flipType="horizontal"
+                >
+                <ImageView
+                    android:background="@drawable/sebelasb"
+                    android:layout_gravity="center"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    />
+                <ImageView
+                    android:background="@drawable/sebelas"
+                    android:layout_gravity="center"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    />
+            </com.wajahatkarim3.easyflipview.EasyFlipView>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:gravity="center"
+            android:layout_weight="1">
+
+            <com.wajahatkarim3.easyflipview.EasyFlipView
+                android:id="@+id/duabelas"
+                android:layout_width="70dp"
+                android:layout_height="70dp"
+                app:flipOnTouch="true"
+                app:flipEnabled="true"
+                app:flipDuration="400"
+                app:flipType="horizontal"
+                >
+                <ImageView
+                    android:background="@drawable/duabelasb"
+                    android:layout_gravity="center"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    />
+                <ImageView
+                    android:background="@drawable/duabelas"
+                    android:layout_gravity="center"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    />
+            </com.wajahatkarim3.easyflipview.EasyFlipView>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="2"></LinearLayout>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="0.2"></LinearLayout>
+
+</LinearLayout>
